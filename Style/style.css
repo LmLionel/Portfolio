@@ -368,18 +368,11 @@ section{
 }
 
 .contact{
-    padding: 150px 16% 90px;
+    padding: 150px 16% 0px;
     background-color: var(--bg-color);
-    height: 130vh;
+    height: 90vh;
     text-align: center;
     transition: all .50s ease;
-}
-
-.footer{
-    padding: 0px 16% 90px;
-    background-color: var(--second-bg-color);
-    padding-top: 20px;
-    height: 1px;
 }
 
 .contact h2{
@@ -394,15 +387,51 @@ section{
 
 .name, .email, .message{
     color: var(--text-color);
+    font-size: 20px;
+    padding-left: 20px;
     background-color: var(--second-bg-color);
     border: 2px solid  var(--main-color);
-    border-color: ;
     border-radius: 25px;
     margin-top: 20px;
     width: 900px;
     height: 90px;
+    /* caret-color: #13bbff; */
+}
+
+.name{
+    text-transform: capitalize;
 }
 
 .message{
     height: 300px;
+    padding-top: 20px;
+    resize: none;
+}
+
+
+.sec-message{
+    padding: 0px 27% 90px;
+    margin-bottom: 90px;
+}
+
+.btn-send-message{
+    background-color: var(--main-color);
+    text-align: center;
+    border-radius: 10px;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 15px 35px 15px 35px;
+    transition: all .50s ease;
+}
+
+.btn-send-message:hover{
+    transform: scale(1.08);
+    transition: all .50s ease;
+}
+
+.footer{
+    padding: 40px 16% 40px;
+    background-color: var(--second-bg-color);
+    font-size: 19px;
 }
