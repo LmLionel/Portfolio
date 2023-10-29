@@ -260,12 +260,12 @@ section{
 .all-block li{
     display: inline-block;
     text-align: left;
-    width: 270px;
-    height: 320px;
+    width: 300px;
+    height: 350px;
     background-color: var(--second-bg-color);
     border-radius: 7px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 25px; 
     transition: all .50s ease;
 }
@@ -303,7 +303,7 @@ section{
 }
 
 .all-block li:hover{
-   transform: scale(1.1);
+   transform: scale(1.08);
    transition: all .50s ease ;
    cursor: pointer;
 }
@@ -320,6 +320,7 @@ section{
     text-align: center;
     font-size: 35px;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 .portfolio span{
@@ -330,18 +331,18 @@ section{
     display: inline-block;
     text-align: left;
     margin-top: 30px;
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     border: 2px solid var(--main-color);
     border-radius: 15px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 25px; 
     transition: all .50s ease;
 }
 
 .portfolio-block li:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: all .50s ease ;
     cursor: pointer;
 }
@@ -379,4 +380,29 @@ section{
     background-color: var(--second-bg-color);
     padding-top: 20px;
     height: 1px;
+}
+
+.contact h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact span{
+    color: var(--main-color);
+}
+
+.name, .email, .message{
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    border: 2px solid  var(--main-color);
+    border-color: ;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 900px;
+    height: 90px;
+}
+
+.message{
+    height: 300px;
 }
